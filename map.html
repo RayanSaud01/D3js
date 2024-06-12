@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Map Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="d3.v7.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="buttons">
+        <button id="animate-button" class="button">Animate Sales</button>
+    </div>
+
+    <div class="container">
+        <div id="map"></div>
+        <div class="line-chart"></div>
+        <div class="container">
+            <div id="animate"></div>
+            <div class="sales-text-box" id="sales-text-box"></div>
+        </div>
+    </div>
+    <div class="tooltip"></div>
+    <script src="map.js"></script>
+    <footer>
+        <p>Linkedin.com/in/muhammadrayan</p>
+    </footer>
+
+</html>

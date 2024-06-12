@@ -1,0 +1,350 @@
+
+
+header {
+    background-color: #1c1c1c;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center; 
+    padding: 0; 
+    height: 20px; 
+    font-size: 12px; 
+    line-height: 20px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer p {
+    margin: 0; 
+    padding: 0; 
+    line-height: 20px;
+}
+
+
+/*MAP Button ANIMATE Setting ---------------------------------------------------------------------*/
+
+/*bg*/
+/*txt*/
+/*success*/
+.buttons {
+  display: flex;
+  justify-content: flex-start; 
+  top: 20px;
+  left: 20px;
+}
+
+.buttons button {
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  margin: 20px;
+  color: #568fa6;
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #315cfd;
+  color: white;
+  font-size: 0.8em;
+}
+
+.buttons button:before, .buttons button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #44d8a4;
+  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button:before {
+  right: 0;
+  top: 0;
+  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button:after {
+  left: 0;
+  bottom: 0;
+}
+
+.buttons button span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.buttons button span:before, .buttons button span:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: #44d8a4;
+  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button span:before {
+  right: 0;
+  top: 0;
+  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button span:after {
+  left: 0;
+  bottom: 0;
+}
+
+.buttons button p {
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons button p:before, .buttons button p:after {
+  position: absolute;
+  width: 100%;
+  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+  z-index: 1;
+  left: 0;
+}
+
+.buttons button p:before {
+  content: attr(data-title);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.buttons button p:after {
+  content: attr(data-text);
+  top: 150%;
+  color: #44d8a4;
+}
+
+.buttons button:hover:before, .buttons button:hover:after {
+  width: 100%;
+}
+
+.buttons button:hover span {
+  z-index: 1;
+}
+
+.buttons button:hover span:before, .buttons button:hover span:after {
+  height: 100%;
+}
+
+.buttons button:hover p:before {
+  top: -50%;
+  transform: rotate(5deg);
+}
+
+.buttons button:hover p:after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.buttons button.start {
+  background-color: #44d8a4;
+  box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.buttons button.start p:before {
+  top: -50%;
+  transform: rotate(5deg);
+}
+
+.buttons button.start p:after {
+  color: white;
+  transition: all 0s ease;
+  content: attr(data-start);
+  top: 50%;
+  transform: translateY(-50%);
+  animation: start 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes start {
+  from {
+    top: -50%;
+  }
+}
+
+.buttons button.start:hover:before, .buttons button.start:hover:after {
+  display: none;
+}
+
+.buttons button.start:hover span {
+  display: none;
+}
+
+.buttons button:active {
+  outline: none;
+  border: none;
+}
+
+.buttons button:focus {
+  outline: 0;
+}
+
+/* ----- */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1C2321;
+  margin: 0;
+}
+
+label {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.tooltip {
+  font: 16px sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  position: absolute;
+}
+
+.legend {
+  font-size: 10px;
+  color: #ffffff;
+  stroke-width: .5;
+}
+
+.legend rect {
+  stroke-width: 2;
+  stroke: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+#map {
+  width: 960px;
+  height: 600px;
+}
+
+.line-chart {
+  width: 500px;
+  height: 400px;
+  margin-top: 220px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.sales-text-box {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  margin-top: -90px;
+  margin-left: -500px;
+  color: #fffefe;
+  padding: 20px;
+  opacity: 0;
+  /* Initially hidden */
+  transition: opacity 0.5s ease;
+  /* Smooth transition for opacity */
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sales-text-box div {
+  margin: 10px 0;
+}
+
+.year {
+  font-size: 140px;
+}
+
+.month,
+.total-sales {
+  font-size: 24px;
+}
+
+#animate {
+  position: absolute;
+  display: block;
+  margin-top: 210px;
+  margin-left: -500px;
+  color: #ffffff;
+}
+
+.line {
+  fill: none;
+  stroke: rgb(190, 223, 251);
+  stroke-width: 2px;
+}
+
+
+
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
