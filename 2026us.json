@@ -11575,7 +11575,7 @@
       "lead": false,
       "noVotesCounted": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "classification": "Open"
     },
     {
