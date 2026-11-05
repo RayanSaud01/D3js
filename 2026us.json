@@ -558,22 +558,22 @@
           "name": "French Hill",
           "votes": 127437,
           "percentage": 50.9,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Chris Jones",
           "votes": 123032,
           "percentage": 49.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "Arkansas 3rd",
@@ -711,22 +711,22 @@
           "name": "Eric Jones",
           "votes": 61856,
           "percentage": 51.6,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Mike Thompson",
           "votes": 58031,
           "percentage": 48.4,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "California 5th",
@@ -8428,29 +8428,29 @@
           "name": "Don Davis",
           "votes": 156564,
           "percentage": 50.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Laurie Buckhout",
           "votes": 146259,
           "percentage": 46.8,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Tom Bailey",
           "votes": 9880,
           "percentage": 3.2,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "North Carolina 2nd",
@@ -8497,29 +8497,29 @@
           "name": "Greg Murphy",
           "votes": 117583,
           "percentage": 49.4,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Raymond Smith",
           "votes": 117350,
           "percentage": 49.3,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Daniel Cavender",
           "votes": 2971,
           "percentage": 1.2,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "North Carolina 4th",
@@ -8590,22 +8590,23 @@
           "name": "Cyril Jefferson",
           "votes": 140001,
           "percentage": 51.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Addison McDowell",
           "votes": 133737,
           "percentage": 48.9,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         }
       ],
-      "lead": true,
+      "lead": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "North Carolina 7th",
@@ -8645,29 +8646,29 @@
           "name": "Mark Harris",
           "votes": 147094,
           "percentage": 50.4,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Colby Watson",
           "votes": 141915,
           "percentage": 48.6,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Bo Whitehead",
           "votes": 2890,
           "percentage": 1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "North Carolina 9th",
@@ -8676,22 +8677,23 @@
           "name": "Richard Ojeda",
           "votes": 138707,
           "percentage": 51.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Richard Hudson",
           "votes": 132692,
           "percentage": 48.9,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         }
       ],
-      "lead": true,
+      "lead": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "North Carolina 10th",
@@ -8787,29 +8789,30 @@
           "name": "Paul Barringer",
           "votes": 159981,
           "percentage": 50.5,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Brad Knott",
           "votes": 152329,
           "percentage": 48.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Steven Swinton",
           "votes": 4479,
           "percentage": 1.4,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         }
       ],
-      "lead": true,
+      "lead": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "North Carolina 14th",
@@ -8818,22 +8821,23 @@
           "name": "Lakesha Womack",
           "votes": 147388,
           "percentage": 51.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Tim Moore",
           "votes": 140973,
           "percentage": 48.9,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         }
       ],
-      "lead": true,
+      "lead": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "North Dakota at large",
@@ -10646,36 +10650,36 @@
           "name": "Matt Van Epps",
           "votes": 121100,
           "percentage": 50.3,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Darden Copeland",
           "votes": 115867,
           "percentage": 48.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Andrew Koontz",
           "votes": 2603,
           "percentage": 1.1,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         },
         {
           "name": "Lowell Reynolds",
           "votes": 1316,
           "percentage": 0.5,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "Tennessee 8th",
@@ -11901,36 +11905,36 @@
           "name": "Mike Kennedy",
           "votes": 94043,
           "percentage": 52.6,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Jonny Larsen",
           "votes": 72802,
           "percentage": 40.7,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Steven Burt",
           "votes": 6855,
           "percentage": 3.8,
-          "status": "Not called",
+          "status": "Called",
           "party": "Independent"
         },
         {
           "name": "Taylor Wright",
           "votes": 5196,
           "percentage": 2.9,
-          "status": "Not called",
+          "status": "Called",
           "party": "Libertarian"
         }
       ],
-      "lead": true,
-      "hold": false,
+      "lead": false,
+      "hold": true,
       "flip": false,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Hold"
     },
     {
       "district": "Vermont at large",
@@ -11998,29 +12002,30 @@
           "name": "Shannon Taylor",
           "votes": 207877,
           "percentage": 51,
-          "status": "Not called",
+          "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Robert Wittman",
           "votes": 198417,
           "percentage": 48.7,
-          "status": "Not called",
+          "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Total Write-ins",
           "votes": 984,
           "percentage": 0.2,
-          "status": "Not called",
+          "status": "Called",
           "party": "Write-in"
         }
       ],
-      "lead": true,
+      "lead": false,
       "hold": false,
-      "flip": false,
+      "flip": true,
       "noVotesCounted": false,
-      "classification": "Lead"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "Virginia 2nd",
