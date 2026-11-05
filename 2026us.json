@@ -54,14 +54,14 @@
         {
           "name": "Mike Rogers",
           "votes": 141800,
-          "percentage": 64.0,
+          "percentage": 64,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Lee McInnis",
           "votes": 79926,
-          "percentage": 36.0,
+          "percentage": 36,
           "status": "Called",
           "party": "Democratic"
         }
@@ -202,7 +202,7 @@
         {
           "name": "Total Write-ins",
           "votes": 0,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Not called",
           "party": "Write-in"
         }
@@ -240,14 +240,14 @@
         {
           "name": "Dev Gupta",
           "votes": 8,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Not called",
           "party": "Write-in"
         },
         {
           "name": "Gage Dylan Thunder",
           "votes": 6,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Not called",
           "party": "Write-in"
         }
@@ -354,7 +354,7 @@
         {
           "name": "Steven Sanders",
           "votes": 37,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -395,7 +395,7 @@
         {
           "name": "JoAnna Mendoza",
           "votes": 163197,
-          "percentage": 53.0,
+          "percentage": 53,
           "status": "Not called",
           "party": "Democratic"
         },
@@ -423,7 +423,7 @@
         {
           "name": "Michael Dorland",
           "votes": 32,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Not called",
           "party": "Write-in"
         }
@@ -502,14 +502,14 @@
         {
           "name": "William Perry",
           "votes": 25,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         },
         {
           "name": "G. Hatch",
           "votes": 11,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -533,7 +533,7 @@
         {
           "name": "Terri Yarbrough Green",
           "votes": 60074,
-          "percentage": 31.0,
+          "percentage": 31,
           "status": "Called",
           "party": "Democratic"
         },
@@ -636,14 +636,14 @@
         {
           "name": "Mike McGuire",
           "votes": 88109,
-          "percentage": 57.0,
+          "percentage": 57,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "James Gallagher",
           "votes": 66418,
-          "percentage": 43.0,
+          "percentage": 43,
           "status": "Called",
           "party": "Republican"
         }
@@ -652,7 +652,8 @@
       "noVotesCounted": false,
       "hold": false,
       "flip": true,
-      "classification": "Flip"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "California 2nd",
@@ -698,9 +699,10 @@
       ],
       "lead": false,
       "noVotesCounted": false,
-      "hold": true,
-      "flip": false,
-      "classification": "Hold"
+      "hold": false,
+      "flip": true,
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "California 4th",
@@ -732,14 +734,14 @@
         {
           "name": "Tom McClintock",
           "votes": 104096,
-          "percentage": 56.0,
+          "percentage": 56,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Michael Masuda",
           "votes": 81704,
-          "percentage": 44.0,
+          "percentage": 44,
           "status": "Called",
           "party": "Democratic"
         }
@@ -996,14 +998,14 @@
         {
           "name": "Sam Liccardo",
           "votes": 112647,
-          "percentage": 76.0,
+          "percentage": 76,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Peter Soulé",
           "votes": 35604,
-          "percentage": 24.0,
+          "percentage": 24,
           "status": "Called",
           "party": "Republican"
         }
@@ -1156,7 +1158,8 @@
       "noVotesCounted": false,
       "hold": false,
       "flip": true,
-      "classification": "Flip"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "California 23rd",
@@ -1284,14 +1287,14 @@
         {
           "name": "Judy Chu",
           "votes": 129408,
-          "percentage": 69.0,
+          "percentage": 69,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "April Verlato",
           "votes": 58272,
-          "percentage": 31.0,
+          "percentage": 31,
           "status": "Called",
           "party": "Republican"
         }
@@ -1500,14 +1503,14 @@
         {
           "name": "Sydney Kamlager-Dove",
           "votes": 78568,
-          "percentage": 62.0,
+          "percentage": 62,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Samantha Mota",
           "votes": 48195,
-          "percentage": 38.0,
+          "percentage": 38,
           "status": "Called",
           "party": "Republican"
         }
@@ -1610,9 +1613,10 @@
       ],
       "lead": false,
       "noVotesCounted": false,
-      "hold": true,
-      "flip": false,
-      "classification": "Hold"
+      "hold": false,
+      "flip": true,
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "California 42nd",
@@ -1692,14 +1696,14 @@
         {
           "name": "Derek Tran",
           "votes": 109254,
-          "percentage": 59.0,
+          "percentage": 59,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Chuong Vo",
           "votes": 75849,
-          "percentage": 41.0,
+          "percentage": 41,
           "status": "Called",
           "party": "Republican"
         }
@@ -1779,8 +1783,9 @@
       "lead": false,
       "noVotesCounted": false,
       "hold": false,
-      "flip": false,
-      "classification": "Open"
+      "flip": true,
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "California 49th",
@@ -1812,14 +1817,14 @@
         {
           "name": "Scott Peters",
           "votes": 117694,
-          "percentage": 61.0,
+          "percentage": 61,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Steve Cohen",
           "votes": 75182,
-          "percentage": 39.0,
+          "percentage": 39,
           "status": "Called",
           "party": "Republican"
         }
@@ -1891,7 +1896,7 @@
         {
           "name": "Christy Peterson",
           "votes": 34396,
-          "percentage": 14.0,
+          "percentage": 14,
           "status": "Called",
           "party": "Republican"
         },
@@ -2036,7 +2041,7 @@
         {
           "name": "Jeff Crank",
           "votes": 127946,
-          "percentage": 46.0,
+          "percentage": 46,
           "status": "Not called",
           "party": "Republican"
         },
@@ -2133,7 +2138,7 @@
         {
           "name": "Dan Sallis",
           "votes": 3639,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -2164,7 +2169,7 @@
         {
           "name": "Manny Rutinel",
           "votes": 131870,
-          "percentage": 55.0,
+          "percentage": 55,
           "status": "Called",
           "party": "Democratic"
         },
@@ -2422,7 +2427,7 @@
         {
           "name": "Seth Harp",
           "votes": 128866,
-          "percentage": 43.0,
+          "percentage": 43,
           "status": "Called",
           "party": "Democratic"
         },
@@ -2642,7 +2647,7 @@
         {
           "name": "James Pericola",
           "votes": 168108,
-          "percentage": 46.0,
+          "percentage": 46,
           "status": "Called",
           "party": "Democratic"
         },
@@ -2790,7 +2795,7 @@
         {
           "name": "Kelly Kirschner",
           "votes": 160942,
-          "percentage": 47.0,
+          "percentage": 47,
           "status": "Called",
           "party": "Democratic"
         },
@@ -2859,7 +2864,7 @@
         {
           "name": "Deva Simmons",
           "votes": 8110,
-          "percentage": 3.0,
+          "percentage": 3,
           "status": "Called",
           "party": "Independent"
         }
@@ -3086,7 +3091,7 @@
         {
           "name": "Deborah Meidinger Hosey",
           "votes": 2350,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Not called",
           "party": "Independent"
         }
@@ -3388,7 +3393,7 @@
         {
           "name": "Total Write-ins",
           "votes": 0,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -3419,7 +3424,7 @@
         {
           "name": "Total Write-ins",
           "votes": 0,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -3474,7 +3479,7 @@
         {
           "name": "Total Write-ins",
           "votes": 0,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -3505,7 +3510,7 @@
         {
           "name": "Total Write-ins",
           "votes": 0,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -3825,14 +3830,14 @@
         {
           "name": "La Shawn Ford",
           "votes": 162350,
-          "percentage": 89.0,
+          "percentage": 89,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Chad Koppie",
           "votes": 20012,
-          "percentage": 11.0,
+          "percentage": 11,
           "status": "Called",
           "party": "Republican"
         }
@@ -4089,14 +4094,14 @@
         {
           "name": "Frank Mrvan",
           "votes": 142213,
-          "percentage": 63.0,
+          "percentage": 63,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Barb Regnitz",
           "votes": 83468,
-          "percentage": 37.0,
+          "percentage": 37,
           "status": "Called",
           "party": "Republican"
         }
@@ -4240,7 +4245,7 @@
         {
           "name": "André Carson",
           "votes": 159211,
-          "percentage": 77.0,
+          "percentage": 77,
           "status": "Called",
           "party": "Democratic"
         },
@@ -4295,7 +4300,7 @@
         {
           "name": "Erin Houchin",
           "votes": 122326,
-          "percentage": 54.0,
+          "percentage": 54,
           "status": "Called",
           "party": "Republican"
         },
@@ -4481,7 +4486,7 @@
         {
           "name": "Don Coover",
           "votes": 110244,
-          "percentage": 45.0,
+          "percentage": 45,
           "status": "Called",
           "party": "Democratic"
         },
@@ -4760,7 +4765,7 @@
         {
           "name": "Lauren Jewett",
           "votes": 89428,
-          "percentage": 34.0,
+          "percentage": 34,
           "status": "Called",
           "party": "Democratic"
         },
@@ -4836,7 +4841,7 @@
         {
           "name": "Clay Higgins",
           "votes": 129203,
-          "percentage": 55.0,
+          "percentage": 55,
           "status": "Called",
           "party": "Republican"
         },
@@ -4895,7 +4900,7 @@
         {
           "name": "Conrad Cable",
           "votes": 52893,
-          "percentage": 23.0,
+          "percentage": 23,
           "status": "Called",
           "party": "Democratic"
         },
@@ -4968,14 +4973,14 @@
         {
           "name": "Antonio Wilson",
           "votes": 27364,
-          "percentage": 12.0,
+          "percentage": 12,
           "status": "Runoff",
           "party": "Democratic"
         },
         {
           "name": "Dan McKay",
           "votes": 16047,
-          "percentage": 7.0,
+          "percentage": 7,
           "status": "Runoff",
           "party": "Democratic"
         },
@@ -4989,7 +4994,7 @@
         {
           "name": "Oscar Dantzler",
           "votes": 2238,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Runoff",
           "party": "Republican"
         }
@@ -5629,7 +5634,7 @@
         {
           "name": "Ben Ambrose",
           "votes": 132134,
-          "percentage": 37.0,
+          "percentage": 37,
           "status": "Called",
           "party": "Democratic"
         },
@@ -5736,7 +5741,7 @@
         {
           "name": "Ronald Muszynski",
           "votes": 3457,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -5819,7 +5824,7 @@
         {
           "name": "William Lawrence",
           "votes": 202657,
-          "percentage": 51.0,
+          "percentage": 51,
           "status": "Called",
           "party": "Democratic"
         },
@@ -5909,7 +5914,7 @@
         {
           "name": "Jim Walkowicz",
           "votes": 4088,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -6037,7 +6042,7 @@
         {
           "name": "Rashida Tlaib",
           "votes": 247185,
-          "percentage": 76.0,
+          "percentage": 76,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6058,7 +6063,7 @@
         {
           "name": "Brenda Sanders",
           "votes": 3365,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -6103,7 +6108,7 @@
         {
           "name": "Chris Dardzinski",
           "votes": 2666,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -6127,7 +6132,7 @@
         {
           "name": "Jake Johnson",
           "votes": 163056,
-          "percentage": 50.0,
+          "percentage": 50,
           "status": "Not called",
           "party": "Democratic"
         },
@@ -6189,7 +6194,7 @@
         {
           "name": "Kelly Morrison",
           "votes": 242079,
-          "percentage": 64.0,
+          "percentage": 64,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6265,7 +6270,7 @@
         {
           "name": "DeVelle Jackson",
           "votes": 24110,
-          "percentage": 7.0,
+          "percentage": 7,
           "status": "Called",
           "party": "Independent"
         },
@@ -6327,7 +6332,7 @@
         {
           "name": "Erik Osberg",
           "votes": 115805,
-          "percentage": 35.0,
+          "percentage": 35,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6420,7 +6425,7 @@
         {
           "name": "Ron Eller",
           "votes": 73109,
-          "percentage": 30.0,
+          "percentage": 30,
           "status": "Called",
           "party": "Republican"
         },
@@ -6451,7 +6456,7 @@
         {
           "name": "Michael Chiaradio",
           "votes": 101882,
-          "percentage": 41.0,
+          "percentage": 41,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6668,7 +6673,7 @@
         {
           "name": "Josh Smead",
           "votes": 100416,
-          "percentage": 39.0,
+          "percentage": 39,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6754,7 +6759,7 @@
         {
           "name": "Sam Forstag",
           "votes": 127263,
-          "percentage": 50.0,
+          "percentage": 50,
           "status": "Not called",
           "party": "Democratic"
         },
@@ -6868,7 +6873,7 @@
         {
           "name": "Brinker Harding",
           "votes": 100895,
-          "percentage": 41.0,
+          "percentage": 41,
           "status": "Called",
           "party": "Republican"
         },
@@ -6892,14 +6897,14 @@
         {
           "name": "Adrian Smith",
           "votes": 173227,
-          "percentage": 71.0,
+          "percentage": 71,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Becky Stille",
           "votes": 48842,
-          "percentage": 20.0,
+          "percentage": 20,
           "status": "Called",
           "party": "Democratic"
         },
@@ -6937,14 +6942,14 @@
         {
           "name": "Dina Titus",
           "votes": 127098,
-          "percentage": 59.0,
+          "percentage": 59,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Carrie Buck",
           "votes": 81873,
-          "percentage": 38.0,
+          "percentage": 38,
           "status": "Called",
           "party": "Republican"
         },
@@ -7037,7 +7042,7 @@
         {
           "name": "Steven Horsford",
           "votes": 136704,
-          "percentage": 60.0,
+          "percentage": 60,
           "status": "Called",
           "party": "Democratic"
         },
@@ -7051,7 +7056,7 @@
         {
           "name": "Russell Best",
           "votes": 2220,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -7168,7 +7173,7 @@
         {
           "name": "Ramon Mora",
           "votes": 2817,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Not called",
           "party": "Independent"
         }
@@ -7354,7 +7359,7 @@
         {
           "name": "Da'Shone Hughey",
           "votes": 3614,
-          "percentage": 3.0,
+          "percentage": 3,
           "status": "Called",
           "party": "Independent"
         }
@@ -7636,7 +7641,7 @@
         {
           "name": "Michael LiPetri",
           "votes": 121623,
-          "percentage": 45.0,
+          "percentage": 45,
           "status": "Called",
           "party": "Republican"
         },
@@ -7767,7 +7772,7 @@
         {
           "name": "Melvin Rivera",
           "votes": 24370,
-          "percentage": 15.0,
+          "percentage": 15,
           "status": "Called",
           "party": "Republican"
         },
@@ -7836,7 +7841,7 @@
         {
           "name": "Joel Azumah",
           "votes": 30378,
-          "percentage": 17.0,
+          "percentage": 17,
           "status": "Called",
           "party": "Republican"
         },
@@ -7929,7 +7934,7 @@
         {
           "name": "Caroline Shinkle",
           "votes": 50212,
-          "percentage": 20.0,
+          "percentage": 20,
           "status": "Called",
           "party": "Republican"
         },
@@ -8088,7 +8093,7 @@
         {
           "name": "Joseph Cinquemani",
           "votes": 17363,
-          "percentage": 18.0,
+          "percentage": 18,
           "status": "Called",
           "party": "Republican"
         },
@@ -8622,7 +8627,7 @@
         {
           "name": "Maad Abu-Ghazalah",
           "votes": 3135,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Not called",
           "party": "Independent"
         }
@@ -8653,7 +8658,7 @@
         {
           "name": "Bo Whitehead",
           "votes": 2890,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Not called",
           "party": "Independent"
         }
@@ -8747,8 +8752,9 @@
       "lead": false,
       "noVotesCounted": false,
       "hold": false,
-      "flip": false,
-      "classification": "Open"
+      "flip": true,
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "North Carolina 12th",
@@ -8849,14 +8855,14 @@
         {
           "name": "Charles Tuttle",
           "votes": 9282,
-          "percentage": 4.0,
+          "percentage": 4,
           "status": "Called",
           "party": "Independent"
         },
         {
           "name": "Helene Neville",
           "votes": 4604,
-          "percentage": 2.0,
+          "percentage": 2,
           "status": "Called",
           "party": "Independent"
         }
@@ -9189,7 +9195,7 @@
         {
           "name": "Emilia Sykes",
           "votes": 190593,
-          "percentage": 60.0,
+          "percentage": 60,
           "status": "Called",
           "party": "Democratic"
         },
@@ -9220,14 +9226,14 @@
         {
           "name": "David Joyce",
           "votes": 179467,
-          "percentage": 55.0,
+          "percentage": 55,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Maria Jukic",
           "votes": 146651,
-          "percentage": 45.0,
+          "percentage": 45,
           "status": "Called",
           "party": "Democratic"
         }
@@ -9299,14 +9305,14 @@
         {
           "name": "Josh Brecheen",
           "votes": 143983,
-          "percentage": 68.0,
+          "percentage": 68,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Brandon Wade",
           "votes": 61378,
-          "percentage": 29.0,
+          "percentage": 29,
           "status": "Called",
           "party": "Democratic"
         },
@@ -9330,14 +9336,14 @@
         {
           "name": "Frank Lucas",
           "votes": 122138,
-          "percentage": 64.0,
+          "percentage": 64,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Suzie Byrd",
           "votes": 68787,
-          "percentage": 36.0,
+          "percentage": 36,
           "status": "Called",
           "party": "Democratic"
         }
@@ -9430,7 +9436,7 @@
         {
           "name": "Barbara Kahl",
           "votes": 71895,
-          "percentage": 30.0,
+          "percentage": 30,
           "status": "Called",
           "party": "Republican"
         },
@@ -9516,7 +9522,7 @@
         {
           "name": "Val Hoyle",
           "votes": 149652,
-          "percentage": 54.0,
+          "percentage": 54,
           "status": "Called",
           "party": "Democratic"
         },
@@ -9530,7 +9536,7 @@
         {
           "name": "Justin Filip",
           "votes": 8345,
-          "percentage": 3.0,
+          "percentage": 3,
           "status": "Called",
           "party": "Independent"
         },
@@ -9839,14 +9845,14 @@
         {
           "name": "Janelle Stelson",
           "votes": 173845,
-          "percentage": 55.0,
+          "percentage": 55,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Scott Perry",
           "votes": 142059,
-          "percentage": 45.0,
+          "percentage": 45,
           "status": "Called",
           "party": "Republican"
         }
@@ -10345,14 +10351,14 @@
         {
           "name": "Marty Jackley",
           "votes": 195583,
-          "percentage": 64.0,
+          "percentage": 64,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Nicole Gronli",
           "votes": 109985,
-          "percentage": 36.0,
+          "percentage": 36,
           "status": "Called",
           "party": "Democratic"
         }
@@ -10383,7 +10389,7 @@
         {
           "name": "Joshua Ashburn",
           "votes": 2102,
-          "percentage": 1.0,
+          "percentage": 1,
           "status": "Called",
           "party": "Independent"
         },
@@ -10781,14 +10787,14 @@
         {
           "name": "Nathaniel Moran",
           "votes": 181987,
-          "percentage": 69.0,
+          "percentage": 69,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Yolanda Prince",
           "votes": 81598,
-          "percentage": 31.0,
+          "percentage": 31,
           "status": "Called",
           "party": "Democratic"
         }
@@ -10805,14 +10811,14 @@
         {
           "name": "Steve Toth",
           "votes": 144748,
-          "percentage": 51.0,
+          "percentage": 51,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Shaun Finnie",
           "votes": 139167,
-          "percentage": 49.0,
+          "percentage": 49,
           "status": "Called",
           "party": "Democratic"
         }
@@ -11100,14 +11106,14 @@
         {
           "name": "Randy Weber",
           "votes": 152618,
-          "percentage": 54.0,
+          "percentage": 54,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Thurman Bartie",
           "votes": 129930,
-          "percentage": 46.0,
+          "percentage": 46,
           "status": "Called",
           "party": "Democratic"
         }
@@ -11140,7 +11146,8 @@
       "noVotesCounted": false,
       "hold": false,
       "flip": true,
-      "classification": "Flip"
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "Texas 16th",
@@ -11196,14 +11203,14 @@
         {
           "name": "Christian Menefee",
           "votes": 193144,
-          "percentage": 86.0,
+          "percentage": 86,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Ronald Whitfield",
           "votes": 31333,
-          "percentage": 14.0,
+          "percentage": 14,
           "status": "Called",
           "party": "Republican"
         }
@@ -11323,7 +11330,7 @@
         {
           "name": "Brandon Herrera",
           "votes": 119795,
-          "percentage": 44.0,
+          "percentage": 44,
           "status": "Called",
           "party": "Republican"
         },
@@ -11338,8 +11345,9 @@
       "lead": false,
       "noVotesCounted": false,
       "hold": false,
-      "flip": false,
-      "classification": "Open"
+      "flip": true,
+      "classification": "Flip",
+      "flipTo": "Democratic"
     },
     {
       "district": "Texas 24th",
@@ -11576,7 +11584,8 @@
       "noVotesCounted": false,
       "hold": false,
       "flip": true,
-      "classification": "Open"
+      "classification": "Flip",
+      "flipTo": "Republican"
     },
     {
       "district": "Texas 33rd",
@@ -11763,7 +11772,7 @@
         {
           "name": "Jesse West",
           "votes": 3603,
-          "percentage": 2.0,
+          "percentage": 2,
           "status": "Called",
           "party": "Libertarian"
         },
@@ -11777,7 +11786,7 @@
         {
           "name": "Babak Darvish",
           "votes": 40,
-          "percentage": 0.0,
+          "percentage": 0,
           "status": "Called",
           "party": "Write-in"
         }
@@ -11808,7 +11817,7 @@
         {
           "name": "Carlton Bowen",
           "votes": 6167,
-          "percentage": 3.0,
+          "percentage": 3,
           "status": "Not called",
           "party": "Independent"
         },
@@ -11988,7 +11997,7 @@
         {
           "name": "Shannon Taylor",
           "votes": 207877,
-          "percentage": 51.0,
+          "percentage": 51,
           "status": "Not called",
           "party": "Democratic"
         },
@@ -12154,7 +12163,7 @@
         {
           "name": "Tom Perriello",
           "votes": 173417,
-          "percentage": 48.0,
+          "percentage": 48,
           "status": "Not called",
           "party": "Democratic"
         },
@@ -12282,7 +12291,7 @@
         {
           "name": "Tony Sabio",
           "votes": 56298,
-          "percentage": 18.0,
+          "percentage": 18,
           "status": "Called",
           "party": "Republican"
         },
@@ -12320,7 +12329,7 @@
         {
           "name": "H. Griffith",
           "votes": 193785,
-          "percentage": 66.0,
+          "percentage": 66,
           "status": "Called",
           "party": "Republican"
         },
@@ -12465,7 +12474,7 @@
         {
           "name": "Edwin Feller",
           "votes": 87035,
-          "percentage": 32.0,
+          "percentage": 32,
           "status": "Called",
           "party": "Republican"
         },
@@ -12620,7 +12629,7 @@
         {
           "name": "Nirav Sheth",
           "votes": 27524,
-          "percentage": 12.0,
+          "percentage": 12,
           "status": "Called",
           "party": "Republican"
         },
@@ -12792,14 +12801,14 @@
         {
           "name": "Mitchell Berman",
           "votes": 158839,
-          "percentage": 52.0,
+          "percentage": 52,
           "status": "Called",
           "party": "Democratic"
         },
         {
           "name": "Bryan Steil",
           "votes": 146885,
-          "percentage": 48.0,
+          "percentage": 48,
           "status": "Called",
           "party": "Republican"
         }
@@ -12871,7 +12880,7 @@
         {
           "name": "Gwen Moore",
           "votes": 211898,
-          "percentage": 80.0,
+          "percentage": 80,
           "status": "Called",
           "party": "Democratic"
         },
@@ -12902,14 +12911,14 @@
         {
           "name": "Scott Fitzgerald",
           "votes": 220990,
-          "percentage": 59.0,
+          "percentage": 59,
           "status": "Called",
           "party": "Republican"
         },
         {
           "name": "Andrew Beck",
           "votes": 153277,
-          "percentage": 41.0,
+          "percentage": 41,
           "status": "Called",
           "party": "Democratic"
         }
